@@ -16,7 +16,7 @@ function index() {
             <div>
 <h1 className={styles.h1}>ThankYou</h1>
 <br></br>
-<h2 className={styles.h2}>Thank you for logging in! Welcome back! We're glad to have you with us</h2>
+<h2 className={styles.h2}>Thank you for logging in! Welcome back! We are glad to have you with us</h2>
 <br></br>
 <Button className={styles.button}>GO Back Home</Button>
 </div>
