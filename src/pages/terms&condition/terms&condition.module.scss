@@ -1,0 +1,58 @@
+@import '../../styles/variables.scss';
+.termsWrap{
+
+    padding:1rem 10rem;
+    height: 100vh;
+    overflow: hidden;
+    ::-webkit-scrollbar {
+        width: 6px;
+      }
+    
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+    
+      ::-webkit-scrollbar-thumb {
+        background: $primary-color; 
+      }
+    
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+
+}
+.h1{
+    color: $primary-color;
+    text-align: center;
+    margin: 1rem;
+    
+
+}
+.contentwrap{
+
+    overflow-y: scroll ;
+    height: 65vh;
+    padding: 1rem 3rem;
+    
+}
+.buttonWrap{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin: 1rem;
+}
+.button{
+    border: solid $primary-color 1px;
+    color: $primary-color;
+}
+.button:hover{
+    border: solid $primary-color 1px;
+    background-color: $primary-color;
+    color: white;
+}
+
+.checkboxWrap{
+    margin:1rem 2.4rem;
+    display: flex;
+   
+}

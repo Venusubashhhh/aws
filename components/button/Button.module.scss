@@ -1,0 +1,14 @@
+/* ButtonComponent.css */
+@import '../../src/styles/variables.scss';
+.blueHover:hover {
+    background-color: $primary-color !important;
+    color: white !important;
+    border: solid 1px $primary-color;
+    box-shadow: 1px 1px 5px black;
+
+  }
+  .blueHover{
+   
+    color: $primary-color;
+    border: solid 1px $primary-color;
+  }

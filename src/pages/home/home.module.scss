@@ -1,0 +1,52 @@
+@import "../../styles/variables.scss";
+.homeWrapper {
+  height: 100vh;
+  background-color: $background-color;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardWrapper {
+  display: flex;
+  gap: 40px;
+}
+.card {
+  border-radius: 15px;
+  color: white;
+ border:solid #e5eaf2 4px;
+ color: black;
+  in-webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(200px);
+  width: 28vw;
+  height: 50vh;
+  padding: 30px;
+}
+.contentWrap {
+  text-align: justify;
+  margin-top: 2rem;
+}
+.buttonWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.selectedCard {
+  border: solid #e5eaf2 2px;
+  border-radius: 15px;
+  color: white;
+  width: 28vw;
+  height: 50vh;
+  padding: 30px;
+  background-color: $primary-color;
+  box-shadow: 2px 2px 5px black;
+}
+.h1{
+    text-align: center;
+    color: $primary-color;
+    margin-top: 1rem;
+}
+.label{
+    color: white;
+  }

@@ -1,0 +1,110 @@
+@import '../../styles/variables.scss';
+.layoutWrap{
+
+}
+.top{
+    display: flex;
+    background-color: $primary-color;
+    height: 3rem;
+}
+.imgWrap{
+display: flex;
+gap: 1rem;
+margin-top: 0.7rem;
+margin-left: 5rem;
+
+}
+.img{
+    height: 1.5rem;
+    width: 1.5rem;
+  
+  
+
+    padding: 0.1rem;
+}
+.navbar{
+    height: 4.7rem;
+    background-color: #f2f2f2;
+    padding-top: 0.4rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+.headersWrap{
+    display: flex;
+    gap: 3rem;
+    margin-right: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+.menuWrap{
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 10rem;
+    gap: 1rem;
+}
+.menuItem{
+    background-color: $primary-color;
+    color: white;
+    padding: 0.5rem;
+}
+.cardWrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1.2rem 9rem;
+}
+.cardTop{
+    background-color: $primary-color;
+    height: 5rem;
+    width: 24rem;
+    color: white;
+    border-radius:10px 10px 0px 0px;
+    padding-top: 1.5rem;
+}
+.h2{
+    text-align: center;
+ display: flex;
+ align-items: center;
+
+
+ justify-content: center;
+}
+.img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 8px;
+ 
+}
+.contentWrap{
+    width: 24rem;
+    height: fit-content;
+    border: solid gray 4px;
+    border-radius:0px 0px 10px 10px;
+    padding: 1.5rem;
+}
+.resultWrap{
+    display: flex;
+    color: white;
+    background-color: $primary-color;
+    padding: 0.5rem 2rem;
+    width: fit-content;
+ margin-bottom: 1.2rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button{
+    color: $primary-color;
+    border: solid $primary-color 3px;
+    border-radius: 5px;
+    padding:0.2rem 1rem;
+    
+}
+.button:hover{
+    color: white;
+    background-color: $primary-color;
+    padding:0.2rem 1rem;
+    box-shadow: 2px 2px 5px black;
+}

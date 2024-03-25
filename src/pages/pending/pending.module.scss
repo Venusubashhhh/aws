@@ -1,0 +1,52 @@
+@import '../../styles/variables.scss';
+.pendingWrap{
+
+    padding: 10rem;
+}
+.h1{
+    text-align: center;
+    color: $secondary-color;
+}
+.h2{
+    text-align: center;
+    color: $primary-color;
+}
+.buttonWrap{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    color: $primary-color;
+    border: solid $primary-color 3px;
+    border-radius: 5px;
+    padding:1rem 4rem;
+    
+}
+.button:hover{
+    color: white;
+    background-color: $primary-color;
+    padding:1rem 4rem;
+    box-shadow: 2px 2px 5px black;
+}
+.imgbackground{
+    height: 15rem;
+    width: 15rem;
+    background-color: #f0f0f089;
+    border-radius: 100%;
+}
+.imgWrap{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.img{
+    max-height: 15rem;
+    max-width: 15rem;
+
+    position: absolute;
+   display: flex;
+   justify-content: center;
+    top: -25%;
+    margin-left: -15rem;
+}

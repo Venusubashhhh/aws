@@ -1,0 +1,80 @@
+@import '../../styles/variables.scss';
+.topbox{
+    height: 8rem;
+    width: 23.75rem;
+    background-color: $primary-color;
+    padding: 2rem;
+    position: relative;
+    border-radius:20px 20px 0px 0px;
+}
+.dropdownWrap{
+    max-width:25vw;
+ 
+}
+.bottombox{
+border: solid grey 4px;
+    height: 52vh;
+    width: 23.75rem;
+    border-radius:0px 0px 20px 20px;
+    border-top:none ;
+    padding-top: 6rem;
+    
+}
+.h2{
+    color: white;
+    text-align: center;
+}
+.profile{
+    height: 10rem;
+    width: 10rem;
+    left: 6.5rem;
+    position: absolute;
+    color: gray;
+}
+.pencil{
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+}
+.b_h2{
+    text-align: center;
+   
+}
+.h3{
+    text-align: center;
+}
+.google{
+    color: gray;
+    height: 1.3rem;
+}
+.flex{
+    display: flex;
+ margin:0.7rem 4rem;
+}
+.iconWrap{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.icon{
+    background-color: $primary-color;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    margin-top: 1rem;
+}
+.contentWrap{
+    margin-top: 2rem;
+}
+.p{
+    margin-top: 2px;
+}
+.dropdown_PageWrap{
+display: flex;
+justify-content: center;
+}
+.img{
+    height: 22px;
+    width: 22px;
+    margin-right: 1rem;
+}

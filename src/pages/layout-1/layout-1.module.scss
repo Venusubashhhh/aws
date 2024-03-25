@@ -1,0 +1,63 @@
+@import '../../styles/variables.scss';
+.layoutWrap{
+    padding: 3rem;
+}
+.h1{
+font-size: 45px;
+}
+.headerWrap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.Button{
+    color: $primary-color;
+  border: solid 2px $primary-color;
+  border-radius: 30px;
+  padding: 0.5rem 3rem;
+}
+.buttonWrap{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.ButtonSmall{
+    color: $primary-color;
+    border: solid 2px $primary-color;
+    border-radius: 30px;
+    padding: 0.2rem 3rem;
+}
+.ButtonBig{
+    background-color: $primary-color;
+    border: solid 2px $primary-color;
+    color: white;
+    border-radius: 30px;
+    padding: 0.7rem 3rem;
+
+}
+.ButtonBig:hover{
+    background-color: $primary-color;
+    border: solid 2px $primary-color;
+    color: white;
+    border-radius: 30px;
+    padding: 0.7rem 3rem;
+
+}
+.textField{
+  
+  
+    width: 20rem;
+    margin-right: 1rem;
+  
+    fill: $primary-color;
+
+}
+.tableHeader{
+    display: flex;
+}
+.data{
+    white-space: nowrap; 
+  width: 10rem; 
+  display: flex
+;
+}
