@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './terms&condition.module.scss'
 import { Button } from '@mui/material'
 import Checkbox from '@mui/material/Checkbox';
-function Terms() {
+function index() {
     const [checked, setChecked] = React.useState(false);
 
   const handleChange = (event:any) => {
@@ -70,4 +70,4 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
   )
 }
 
-export default Terms
+export default index

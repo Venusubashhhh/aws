@@ -1,4 +1,5 @@
-import React from "react";
+'use client'
+import React, { useState } from 'react'
 import styles from "./home.module.scss";
 import ButtonComponent from "../../../components/button/Button";
 import RadioButtonsGroup from "../../../components/Radio";
@@ -9,7 +10,7 @@ import FormLabel from "@mui/material/FormLabel";
 import Link from "next/link";
 
 function Home() {
-  const [selectedValue, setSelectedValue] = React.useState("a");
+  const [selectedValue, setSelectedValue] = useState("a");
   const router = useRouter();
   const handleChange = (event: any) => {
     setSelectedValue(event.target.value);
