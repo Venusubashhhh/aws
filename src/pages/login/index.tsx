@@ -26,7 +26,7 @@ function index() {
             <input type="text" className={styles.textArea} />
             <h5 className={styles.h6}>Forgot Your Password</h5>
             <button className={styles.button}>Sign In</button>
-            <h5 className={styles.h5}>Don't Have an Account? signup</h5>
+            <h5 className={styles.h5}>Dont Have an Account? signup</h5>
           </div>
         </div>
         <div>
