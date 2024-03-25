@@ -15,7 +15,7 @@ import profile from '../../../public/assests/1564534_customer_man_user_account_p
 import plususer from '../../../public/assests/1608463_plus_user_icon.png'
 
 
-function index() {
+function Dropdown() {
     const[flag,setflag]=useState(false);
   return (
     <div className={styles.dropdown_PageWrap} >
@@ -73,4 +73,4 @@ function index() {
   )
 }
 
-export default index
+export default Dropdown
