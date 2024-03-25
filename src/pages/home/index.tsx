@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import FormLabel from "@mui/material/FormLabel";
 import Link from "next/link";
 
-function index() {
+function Home() {
   const [selectedValue, setSelectedValue] = React.useState("a");
   const router = useRouter();
   const handleChange = (event: any) => {
@@ -129,4 +129,4 @@ function index() {
   );
 }
 
-export default index;
+export default Home;
